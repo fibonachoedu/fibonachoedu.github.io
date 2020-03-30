@@ -596,6 +596,7 @@ label #cancel:hover{
     background-size: cover;*/
     min-height: 100vh;
     transition: all 500ms;
+    padding-bottom: 6em;
 }
 
 .main-image {
@@ -737,6 +738,20 @@ label #cancel:hover{
         margin-left: auto;
         margin-right: 0.25em;
     }
+
+    .site-logo {
+        margin-left: auto;
+        margin-right: 0.25em;
+    }
+
+    /*.site-footer .site-title {
+        margin-left: 0.25em;
+        margin-right: auto;
+    }
+
+    .site-footer .site-logo {
+        margin-right: 0.25em;
+    }*/
 }
 
 @media (min-width: 1000px) {
@@ -783,7 +798,7 @@ label #cancel:hover{
     margin: 1em auto 2em;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 775px) {
     .site-hero {
         height: 80vh;
         justify-content: center;
@@ -874,7 +889,7 @@ label #cancel:hover{
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 775px) {
     .site-courses {
         min-height: 100vh;
     }
@@ -910,7 +925,7 @@ label #cancel:hover{
     font-weight: 400;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 775px) {
     .site-about {
         padding: 0;
         height: 100vh;
@@ -958,7 +973,7 @@ label #cancel:hover{
     color: white;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 775px) {
     .contact-container {
         padding: 0;
         height: 100vh;
@@ -1004,6 +1019,24 @@ label #cancel:hover{
     color: rgba(255,255,255,0.3);
     font-size: 1rem;
     text-decoration: none;
+}
+
+.footer-title {
+    padding-bottom: 1em;
+    margin: 0;
+    line-height: 0;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-logo {
+    width: 1.7em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0.4em;
 }
 
 /*==================
