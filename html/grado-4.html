@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fibonacho</title>
+        <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,700&display=swap" rel="stylesheet">        
         <link href="../css/styles.css" rel="stylesheet">
@@ -11,32 +12,35 @@
     <body onload="pageLoaded()">
         <!--===SIDEBAR===-->
         <!--=======Menu open/close=======-->
-        <input type="checkbox" id="check">
-        <label for="check">
-            <i class="fas fa-bars" id="btn"></i>
-            <i class="fas fa-times" id="cancel"></i>
-        </label>
-        <!--=======Sidebar Menu=======-->
-        <div class="sidebar">
-            <header>Grado 4/5</header>
-            <ul>
-                <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
-                <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>Fracciones</a></li>
-                <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
-            </ul>
-        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <!--=======Sidebar Menu=======-->
+            <div class="sidebar">
+                <header>Grado 4/5</header>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
+                    <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>Fracciones</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
 
         
         <main class="pattern">
 
             <!--=======Section=======-->
-            <section class="block">
+            <article class="block">
 
                 <div class="real-block shadow">
 
                     <!--=======Intro=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <!--<p class="date">19/03/20</p>-->
                         <div class="chapter-level">Nivel 1</div>
                         <h1 class="chapter-title">Fracciones</h1>
@@ -63,10 +67,10 @@
                         </ul>
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                     <!--=======Chapter 01=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(1)</span>Términos de la fracción:</h2>
                         <div class="space"></div>  <!--empty space-->
                         <img class="img-diagram" src="../img/fracciones/fraccionarios-5.jpg" alt="">
@@ -93,11 +97,11 @@
 
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
 
                     <!--=======Chapter 02=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(2)</span>¿Cómo se leen las fracciones?</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -120,10 +124,10 @@
                         </ul>
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                     <!--=======Extra: Resources=======-->
-                    <div class="chapter resources resources-margin">
+                    <section class="chapter resources resources-margin">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-graduation-cap"></i></span>Material extra para trabajar la parte básica de las fracciones:</h2>
                         
                         <p>En el siguiente enlace podrás descargar el cuadernillo de trabajo sobre fracciones de Edufichas.com:</p>
@@ -143,27 +147,27 @@
                             <a href="https://fichasparaimprimir.com/representacion-de-fracciones-tercero-primaria/" target="_blank">Ejercicios 02</a>
                         </div>
 
-                    </div>
+                    </section>
 
                     <!--=======Extra: Credits=======-->
-                    <div class="chapter resources">
+                    <section class="chapter resources">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-external-link-alt"></i></span>Créditos de las figuras:</h2>
                         <div class="resources list-dot">
                             <a href="https://unsplash.com/@juja_han" target="_blank">Photo by Juja Han</a>
                         </div>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                 </div>
-            </section>
+            </article>
 
             <!--=======Section=======-->
-            <section class="block">
+            <article class="block">
 
                 <div class="real-block shadow">
 
                     <!--=======Intro=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <!--<p class="date">19/03/20</p>-->
                         <div class="chapter-level">Nivel 2</div>
                         <h1 class="chapter-title">Fracciones</h1>
@@ -178,10 +182,10 @@
                             <li class="goal-list-dot">Cómo convertir una fracción mixta a una fracción impropia</li>
                         </ul>
 
-                    </div>
+                    </section>
 
                     <!--=======Chapter 01=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(1)</span>Tipos de fracciones:</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -260,10 +264,10 @@
                         <img class="img-diagram" src="../img/fracciones/fraccionarios-14.png" alt="">
                         <div class="space"></div>  <!--empty space-->
 
-                    </div>
+                    </section>
 
                     <!--=======Chapter 02=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(2)</span>¿Cómo convertir una fracción mixta a una fracción impropia?</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -276,10 +280,10 @@
                         <p><span class="example">Observa:</span></p> <!--"Observa"-->
                         <img class="img-diagram" src="../img/fracciones/fraccionarios-15.png" alt="">
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                     <!--=======Chapter 03=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(3)</span>¿Cómo convertir una fracción impropia a una fracción mixta?</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -294,19 +298,19 @@
                         </ul>
                         <p><span class="example">Observa:</span></p> <!--"Observa"-->
                         <img class="img-diagram" src="../img/fracciones/fraccionarios-16.png" alt="">
-                    </div>
+                    </section>
 
                     <!--=======Extra: Credits=======-->
-                    <div class="chapter resources">
+                    <section class="chapter resources">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-external-link-alt"></i></span>Créditos de las figuras:</h2>
                         <div class="resources list-dot">
                             <a href="https://unsplash.com/@neryfabiola_" target="_blank">Photo by Nery Montenegro</a>
                         </div>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                 </div>
-            </section>
+            </article>
         </main>
 
         <footer class="site-footer">

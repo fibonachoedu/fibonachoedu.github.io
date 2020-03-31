@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fibonacho</title>
+        <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,700&display=swap" rel="stylesheet">        
         <link href="../css/styles.css" rel="stylesheet">
@@ -11,30 +12,32 @@
     <body onload="pageLoaded()">
         <!--===SIDEBAR===-->
         <!--=======Menu open/close=======-->
-        <input type="checkbox" id="check">
-        <label for="check">
-            <i class="fas fa-bars" id="btn"></i>
-            <i class="fas fa-times" id="cancel"></i>
-        </label>
-        <!--=======Sidebar Menu=======-->
-        <div class="sidebar">
-            <header>Grado 3</header>
-            <ul>
-                <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
-                <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>La suma</a></li>
-                <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
-            </ul>
-        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <!--=======Sidebar Menu=======-->
+            <div class="sidebar">
+                <header>Grado 3</header>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
+                    <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>La suma</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <!--=======Section=======-->
         <main class="pattern">
-            <section class="block">
+            <article class="block">
 
                 <div class="real-block shadow">
 
                     <!--=======Intro=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <!--<p class="date">19/03/20</p>-->
                         <div class="chapter-level">Nivel 1</div>
                         <h1 class="chapter-title">Las propiedades de la suma</h1>
@@ -62,10 +65,10 @@
                         </ul>
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                     <!--=======Chapter 01=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(1)</span>Propiedad conmutativa:</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -84,11 +87,11 @@
                         <img class="img-diagram" src="../img/suma/suma-2.png" alt="">
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
 
                     <!--=======Chapter 02=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(2)</span>Propiedad asociativa:</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -111,11 +114,11 @@
                              agrupar los sumandos de una forma diferente a la ya dada.”</p>
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
 
                     <!--=======Chapter 03=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(3)</span>Propiedad del elemento neutro:</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -134,11 +137,11 @@
                         <img class="img-diagram" src="../img/suma/suma-4.png" alt="">
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
 
                     <!--=======Chapter 04=======-->
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(4)</span>Propiedad distributiva:</h2>
                         <div class="space"></div>  <!--empty space-->
 
@@ -164,11 +167,11 @@
                         <img class="img-diagram" src="../img/suma/suma-5-3.png" alt="">
 
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
 
                     <!--=======Extra: Resources=======-->
-                    <div class="chapter resources resources-margin">
+                    <section class="chapter resources resources-margin">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-graduation-cap"></i></span>Material extra para trabajar las propiedades de la suma:</h2>
                         <p>Fichas para trabajar la propiedad asociativa, conmutativa y elemento neutro de la suma:</p>
                         <div class="resources list-dot">
@@ -177,28 +180,28 @@
                         <div class="resources list-dot">
                             <a href="https://www.edufichas.com/matematicas/aprender-las-horas/" target="_blank">Ficha 02</a>
                         </div>
-                    </div>
+                    </section>
 
                     <!--=======Extra: Videos=======-->
-                    <div class="chapter resources resources-margin">
+                    <section class="chapter resources resources-margin">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-video"></i></span>Enlaces de vídeos sobre el reloj:</h2>
                         <p>Vídeo de La Eduteca en el cual encontrarás una explicación sencilla de la propiedad conmutativa y asociativa de la suma:</p>
                         <div class="resources list-dot">
                             <a href="https://www.youtube.com/watch?v=wZn5JZatTBY&list=RDwZn5JZatTBY&start_radio=1" target="_blank">Vídeo 01</a>
                         </div>
-                    </div>
+                    </section>
 
                     <!--=======Extra: Credits=======-->
-                    <div class="chapter resources">
+                    <section class="chapter resources">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-external-link-alt"></i></span>Créditos de las figuras:</h2>
                         <div class="resources list-dot">
                             <a href="https://unsplash.com/@jamie452" target="_blank">Photo by Jamie Street</a>
                         </div>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                 </div>
-            </section>
+            </article>
         </main>
 
         <footer class="site-footer">

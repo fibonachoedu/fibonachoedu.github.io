@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fibonacho</title>
+        <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,700&display=swap" rel="stylesheet">        
         <link href="../css/styles.css" rel="stylesheet">
@@ -11,29 +12,31 @@
     <body onload="pageLoaded()">
         <!--===SIDEBAR===-->
         <!--=======Menu open/close=======-->
-        <input type="checkbox" id="check">
-        <label for="check">
-            <i class="fas fa-bars" id="btn"></i>
-            <i class="fas fa-times" id="cancel"></i>
-        </label>
-        <!--=======Sidebar Menu=======-->
-        <div class="sidebar">
-            <header>Grado 1</header>
-            <ul>
-                <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
-                <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>Conjuntos</a></li>
-                <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
-            </ul>
-        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <!--=======Sidebar Menu=======-->
+            <div class="sidebar">
+                <header>Grado 1</header>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-h-square"></i>Home</a></li>
+                    <li><a href="#" class="current-page"><i class="fas fa-user-astronaut"></i>Conjuntos</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i>Sobre mi</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <!--=======Section=======-->
         <main class="pattern">
-            <section class="block">
+            <article class="block">
 
                 <div class="real-block shadow">
 
-                    <div class="chapter">
+                    <section class="chapter">
                         <!--<p class="date">19/03/20</p>-->
                         <div class="chapter-level">Nivel 1</div>
                         <h1 class="chapter-title">Conjuntos</h1>
@@ -64,9 +67,9 @@
                             animi dolor provident porro cumque. Sit minus doloribus impedit ullam deserunt.</p>
                         -->
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(1)</span>Representación de conjuntos:</h2>
                         <p class="main-text">Hoy veremos dos formas de representar conjuntos:</p>
                         <ol class="section-list">
@@ -88,9 +91,9 @@
                         <p class="main-text">Finalmente cierras la llave:</p>
                         <p class="main-text text-margin"><strong>R: {naranja, manzana, sandía, fresa}</strong></p>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(2)</span>Cardinal de un conjunto:</h2>
                         <p class="main-text">El cardinal de un conjunto es el número de elementos u objetos que tenemos 
                             dentro del conjunto.</p>
@@ -101,9 +104,9 @@
                             cuántos elementos hay dentro.
                         </p>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
-                    <div class="chapter">
+                    <section class="chapter">
                         <h2 class="section-title"><span class="chapter__number">(3)</span>Relación de pertenencia y no pertenencia:</h2>
                         <p class="main-text">Para saber si un elemento o un objeto puede 
                             pertenecer o estar dentro de nuestro conjunto tenemos que compararlos 
@@ -116,16 +119,16 @@
                         <p><span class="example">Ejemplo:</span></p>
                         <img class="img-diagram" src="../img/conjuntos/conjuntos-7.png" alt="">
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
-                    <div class="chapter resources resources-margin">
+                    <section class="chapter resources resources-margin">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-graduation-cap"></i></span>Material extra para trabajar el tema conjuntos:</h2>
                         <div class="resources">
                             <a href="https://fichasparaimprimir.com/wp-content/uploads/2017/07/Ficha-de-Aprendiendo-Conjuntos-para-Primero-de-Primaria.pdf" target="_blank">Ficha sobre conjuntos</a>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="chapter resources">
+                    <section class="chapter resources">
                         <h2 class="section-title"><span class="chapter__number"><i class="fas fa-external-link-alt"></i></span>Créditos de las figuras:</h2>
                         <div class="resources">
                             <a href="https://unsplash.com/@miinyuii" target="_blank">Photo by Duy Pham</a>
@@ -137,10 +140,10 @@
                             <a href="https://www.freepik.es/fotos-vectores-gratis/invierno" target="_blank">Vector de Invierno creado por macrovector_official - www.freepik.es</a>                        </p>
                         </div>
                         <div class="space"></div>  <!--empty space-->
-                    </div>
+                    </section>
 
                 </div>
-            </section>
+            </article>
         </main>
 
         <footer class="site-footer">
